@@ -5,6 +5,7 @@ const links = [
   { to: 'work', label: 'Find Work' },
   { to: 'interview', label: 'Interview' },
   { to: 'passport', label: 'My Passport' },
+  { to: 'job', label: 'Create Job' },
 ];
 
 const Navbar = () => {

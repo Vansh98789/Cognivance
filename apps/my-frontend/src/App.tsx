@@ -4,6 +4,7 @@ import DashBoard from "./features/DashBoard"
 import Work from "./features/work"
 import Passport from "./features/passport"
 import Interview from "./features/interview"
+import Job from "./features/Job"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
               <Route path="work" element={<Work/>}/>
               <Route path="interview" element={<Interview/>}/>
               <Route path="passport" element={<Passport/>}/>
+              <Route path="job" element={<Job/>}/>
             </Route>
 
           </Routes>
